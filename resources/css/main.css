@@ -1,0 +1,19 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+.btn-blue-outline-big {
+    @apply bg-transparent text-blue-700 font-semibold py-4 px-8 border border-blue-500 rounded;
+}
+.btn-blue-outline-big:hover {
+    @apply bg-blue-500 text-white border-transparent
+}
+
+.logout {
+    @apply bg-blue-700 text-white text-sm font-semibold py-1 px-2 border border-blue-500 rounded;
+}
+.logout:hover {
+    @apply bg-blue-500 text-white border-transparent;
+}
